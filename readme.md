@@ -15,19 +15,27 @@
         _logger = A.Fake<ILogger>();
         _player = new FizzBuzzPlayer(_logger);
       }
-
-      [TestMethod]
-      public void TestLogWhenPlaying5()
+      
+      [TestClass]
+      public class WhenPlayingA5 : FizzBuzzTests
       {
-        _player.Play(5);
-        A.CallTo(() => _logger.Log("The fizz-buzz of 5 is buzz.")).MustHaveHappened();
+        [TestMethod]
+        public void LogsThePlay()
+        {
+          _player.Play(5);
+          A.CallTo(() => _logger.Log("The fizz-buzz of 5 is buzz.")).MustHaveHappened();
+        }
       }
 
-      [TestMethod]
-      public void TestLogWhenPlaying7()
+      [TestClass]
+      public class WhenPlayingA7 : FizzBuzzTests
       {
-        _player.Play(7);
-        A.CallTo(() => _logger.Log("The fizz-buzz of 7 is buzz.")).MustHaveHappened();
+        [TestMethod]
+        public void LogsThePlay()
+        {
+          _player.Play(7);
+          A.CallTo(() => _logger.Log("The fizz-buzz of 7 is buzz.")).MustHaveHappened();
+        }
       }
     }
 
@@ -82,13 +90,13 @@ We can do better.
       }
     }
     
-Write your C# tests in the RSpec style that you know and love (from, like, [every](https://jasmine.github.io/) [other](https://github.com/Quick/Quick) [testing](http://rspec.info/) [framework](https://mochajs.org/) out there). 
+With Scribe, you can write your C# tests in the RSpec style that you know and love (from, like, [every](https://jasmine.github.io/) [other](https://github.com/Quick/Quick) [testing](http://rspec.info/) [framework](https://mochajs.org/) out there). 
 
 ### It's not *yet another* testing framework
 
 Scribe is just some syntactic sugar, a pinch of love, and a [T4](https://docs.microsoft.com/en-us/visualstudio/modeling/code-generation-and-t4-text-templates?view=vs-2017) template that generates the actual test code--after that, your favorite tools and infrastructure still apply.
 
-![Test Explorer still works!](docs/img/test-explorer.png)
+<img alt="Test Explorer still works!" src="docs/img/test-explorer.png" style="width: 100%; max-width:400px" />
 
 Available in three popular flavors: [MSTest](https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-mstest), [NUnit](https://nunit.org/), and [xUnit](https://xunit.github.io/). 
 
