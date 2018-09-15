@@ -2,7 +2,7 @@
 <package>
   <metadata minClientVersion="3.3.0">
     <id>Scribe.NET.xUnit</id>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <title>Scribe for xUnit</title>
     <authors>Jon Fazzaro</authors>
     <owners>Jon Fazzaro</owners>
@@ -22,5 +22,6 @@
   </metadata>
   <files>
     <file src="Scribe.xUnit.tt" target="contentFiles\any\any" />
+    <file src="bin\Release\netstandard2.0\Scribe.xUnit.dll" target="lib\netstandard2.0" />
   </files>
 </package>
