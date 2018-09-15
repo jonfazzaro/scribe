@@ -38,6 +38,6 @@
 		var path = Host.ResolveAssemblyReference("$(TargetPath)");
 		if (!File.Exists(path))
 			return null;
-		return Assembly.LoadFrom(path);
+		return Assembly.Load(File.ReadAllBytes(path));
 	}
 #>
