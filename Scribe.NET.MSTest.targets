@@ -1,0 +1,6 @@
+  <ItemGroup>
+    <None Update="Scribe.MSTest.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Scribe.MSTest.cs</LastGenOutput>
+    </None>
+  </ItemGroup>

@@ -1,0 +1,43 @@
+﻿<#+ 
+	public string TestName(Test test) {
+		return string.Join(" ", test.Context, test.Name);
+	}
+#>
+
+<#+ 
+	public Spec Suite(Type spec) {
+		return Activator.CreateInstance(spec) as Spec;
+	}
+#>
+
+<#+ 
+	public string TestMethodName(Test test) {
+		var textInfo = new CultureInfo("en-US", false).TextInfo;
+		return textInfo.ToTitleCase(string.Join("_", test.Context, test.Name).ToLower())
+			.Replace(" ", string.Empty)
+			.Replace("'", string.Empty);
+	}
+#>
+
+<#+ 
+	public IEnumerable<Type> SpecTypes() {
+		var thisAssembly = ThisAssembly();
+		if (thisAssembly is null)
+			return Enumerable.Empty<Type>();
+
+		return thisAssembly
+			.GetTypes()
+			.Where(t => 
+				t != typeof(Spec) && 
+				typeof(Spec).IsAssignableFrom(t));
+	}
+#>
+
+<#+ 
+	public Assembly ThisAssembly() {
+		var path = Host.ResolveAssemblyReference("$(TargetPath)");
+		if (!File.Exists(path))
+			return null;
+		return Assembly.LoadFrom(path);
+	}
+#>

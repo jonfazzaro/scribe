@@ -1,0 +1,23 @@
+﻿<?xml version="1.0"?>
+<package>
+  <metadata minClientVersion="3.3.0">
+    <id>Scribe.NET</id>
+    <version>1.0.1</version>
+    <title>Scribe</title>
+    <authors>Jon Fazzaro</authors>
+    <owners>Jon Fazzaro</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/jonfazzaro/scribe</projectUrl>
+    <iconUrl>https://s15.postimg.cc/4wua0nirv/scribe.png</iconUrl>
+    <description>Scribe lets you write RSpec-style tests in C# (without leaving the comfort of your favorite testing framework).</description>
+    <copyright>Copyright 2018, Fazzaro</copyright>
+    <tags>C#, TDD, RSpec, Describe, It, BeforeEach</tags>
+    <contentFiles>
+      <files include="any/any/Scribe.ttinclude" buildAction="None" copyToOutput="false" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="Scribe.ttinclude" target="contentFiles\any\any" />
+    <file src="bin\Release\netstandard2.0\Scribe.dll" target="lib\netstandard2.0" />
+  </files>
+</package>

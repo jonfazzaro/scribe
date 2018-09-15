@@ -1,0 +1,26 @@
+﻿<?xml version="1.0"?>
+<package>
+  <metadata minClientVersion="3.3.0">
+    <id>Scribe.NET.MSTest</id>
+    <version>1.0.1</version>
+    <title>Scribe for MSTest</title>
+    <authors>Jon Fazzaro</authors>
+    <owners>Jon Fazzaro</owners>
+    <projectUrl>https://github.com/jonfazzaro/scribe</projectUrl>
+    <iconUrl>https://s15.postimg.cc/4wua0nirv/scribe.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Scribe lets you write RSpec-style tests in C# (without leaving the comfort of your favorite testing framework).</description>
+    <copyright>Copyright 2018, Fazzaro</copyright>
+    <tags>C#, TDD, RSpec, Describe, It, BeforeEach</tags>
+    <dependencies>
+      <dependency id="Scribe.NET" version="1.0.1" />
+      <dependency id="MSTest.TestFramework" version="1.3.2" />
+    </dependencies>
+    <contentFiles>
+      <files include="any/any/Scribe.MSTest.tt" buildAction="None" copyToOutput="false" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="Scribe.MSTest.tt" target="contentFiles\any\any" />
+  </files>
+</package>
