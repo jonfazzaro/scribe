@@ -1,5 +1,5 @@
 ﻿using FakeItEasy;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Xunit;
 
 namespace Scribe.Tests
 {
@@ -71,7 +71,7 @@ namespace Scribe.Tests
 		}
 
 		protected void AssertEquals(string expected, string actual) {
-			Assert.AreEqual(expected, actual);
+			Assert.Equal(expected, actual);
 		}
 	}
 
