@@ -14,8 +14,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Scribe.Tests\Scribe.Tests.csproj" />
     <ProjectReference Include="..\Scribe\Scribe.csproj" />
-    <ProjectReference Include="..\Tests\Scribe.Tests.csproj" />
   </ItemGroup>
 
   <ItemGroup>

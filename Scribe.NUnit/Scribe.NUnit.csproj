@@ -5,12 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MSTest.TestFramework" Version="1.3.2" />
+    <PackageReference Include="FakeItEasy" Version="4.8.1" />
+    <PackageReference Include="NUnit" Version="3.10.1" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.10.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Scribe.Tests\Scribe.Tests.csproj" />
     <ProjectReference Include="..\Scribe\Scribe.csproj" />
-    <ProjectReference Include="..\Tests\Scribe.Tests.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -18,17 +20,17 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Scribe.MSTest.cs">
+    <Compile Update="Scribe.NUnit.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
-      <DependentUpon>Scribe.MSTest.tt</DependentUpon>
+      <DependentUpon>Scribe.NUnit.tt</DependentUpon>
     </Compile>
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="Scribe.MSTest.tt">
+    <None Update="Scribe.NUnit.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>Scribe.MSTest.cs</LastGenOutput>
+      <LastGenOutput>Scribe.NUnit.cs</LastGenOutput>
     </None>
   </ItemGroup>
 
