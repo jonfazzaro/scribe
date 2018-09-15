@@ -1,8 +1,7 @@
 ﻿using FakeItEasy;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Scribe;
 
-namespace Tests
+namespace Scribe.Tests
 {
 	public partial class TheFizzBuzzPlayer : Spec
 	{

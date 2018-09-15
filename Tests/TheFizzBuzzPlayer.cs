@@ -1,7 +1,6 @@
 ﻿using FakeItEasy;
-using Scribe;
 
-namespace Tests
+namespace Scribe.Tests
 {
 	public abstract partial class TheFizzBuzzPlayer : Spec
 	{

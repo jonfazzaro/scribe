@@ -1,7 +1,7 @@
 ﻿using Scribe;
 using NUnit.Framework;
 
-namespace Tests.NUnit.Romans
+namespace Scribe.Tests.NUnit.Romans
 {
 	public partial class TheRomanNumeralCalculator : Tests.Romans.TheRomanNumeralCalculator
 	{

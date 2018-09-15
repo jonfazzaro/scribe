@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Tests.MSTest.Romans
+namespace Scribe.Tests.MSTest.Romans
 {
 	public partial class TheRomanNumeralCalculator : Tests.Romans.TheRomanNumeralCalculator
 	{

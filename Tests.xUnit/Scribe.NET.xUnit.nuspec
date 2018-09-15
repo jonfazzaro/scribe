@@ -2,7 +2,7 @@
 <package>
   <metadata minClientVersion="3.3.0">
     <id>Scribe.NET.xUnit</id>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <title>Scribe for xUnit</title>
     <authors>Jon Fazzaro</authors>
     <owners>Jon Fazzaro</owners>
@@ -13,7 +13,7 @@
     <copyright>Copyright 2018, Fazzaro</copyright>
     <tags>C#, TDD, RSpec, Describe, It, BeforeEach</tags>
     <dependencies>
-      <dependency id="Scribe.NET" version="1.0.1" />
+      <dependency id="Scribe.NET" version="1.0.2" />
       <dependency id="xunit" version="2.4.0" />
     </dependencies>
     <contentFiles>

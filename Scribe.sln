@@ -5,13 +5,13 @@ VisualStudioVersion = 15.0.28010.2019
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scribe", "Scribe\Scribe.csproj", "{46A7FFF9-121E-474E-87D2-AC487543EDBF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "Tests\Tests.csproj", "{03DFDC0D-7D30-4528-9FF1-043953D24182}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scribe.Tests", "Tests\Scribe.Tests.csproj", "{03DFDC0D-7D30-4528-9FF1-043953D24182}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests.NUnit", "Tests.NUnit\Tests.NUnit.csproj", "{64750284-AF93-4517-929F-FAC2C580C620}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scribe.NUnit", "Tests.NUnit\Scribe.NUnit.csproj", "{64750284-AF93-4517-929F-FAC2C580C620}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests.xUnit", "Tests.xUnit\Tests.xUnit.csproj", "{3D0D9939-1700-42E7-A0C7-108614D332B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scribe.xUnit", "Tests.xUnit\Scribe.xUnit.csproj", "{3D0D9939-1700-42E7-A0C7-108614D332B9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests.MSTest", "Tests.MSTest\Tests.MSTest.csproj", "{73A21E8A-BFBC-4B22-B876-18A08FD0FF6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scribe.MSTest", "Tests.MSTest\Scribe.MSTest.csproj", "{73A21E8A-BFBC-4B22-B876-18A08FD0FF6C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Target", "Target\Target.csproj", "{63135B03-8373-423B-B41E-B01FFA511DDA}"
 EndProject

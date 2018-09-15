@@ -1,6 +1,4 @@
-﻿using Scribe;
-
-namespace Tests.Romans
+﻿namespace Scribe.Tests.Romans
 {
 	public abstract partial class TheRomanNumeralCalculator : Spec
 	{

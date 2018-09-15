@@ -1,6 +1,6 @@
 ﻿using Xunit;
 
-namespace Tests.xUnit.Romans
+namespace Scribe.Tests.xUnit.Romans
 {
 	public partial class TheRomanNumeralCalculator : Tests.Romans.TheRomanNumeralCalculator
 	{

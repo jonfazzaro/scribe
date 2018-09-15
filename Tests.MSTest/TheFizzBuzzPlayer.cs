@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Tests.MSTest
+namespace Scribe.Tests.MSTest
 {
 	public partial class TheFizzBuzzPlayer : Tests.TheFizzBuzzPlayer
 	{

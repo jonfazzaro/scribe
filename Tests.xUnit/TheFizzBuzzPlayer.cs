@@ -1,8 +1,8 @@
 ﻿using Xunit;
 
-namespace Tests.xUnit
+namespace Scribe.Tests.xUnit
 {
-	public partial class TheFizzBuzzPlayer : Tests.TheFizzBuzzPlayer
+	public partial class TheFizzBuzzPlayer : Scribe.Tests.TheFizzBuzzPlayer
 	{
 		protected override void AssertEquals(string expected, string actual)
 		{

@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
 
-namespace Tests.NUnit
+namespace Scribe.Tests.NUnit
 {
 	public partial class TheFizzBuzzPlayer : Tests.TheFizzBuzzPlayer
 	{

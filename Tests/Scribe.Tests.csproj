@@ -6,7 +6,6 @@
 
   <ItemGroup>
     <PackageReference Include="FakeItEasy" Version="4.8.1" />
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.8.0" />
   </ItemGroup>
 
   <ItemGroup>

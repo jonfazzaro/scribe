@@ -10,7 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Scribe\Scribe.csproj" />
-    <ProjectReference Include="..\Tests\Tests.csproj" />
+    <ProjectReference Include="..\Tests\Scribe.Tests.csproj" />
   </ItemGroup>
 
   <ItemGroup>

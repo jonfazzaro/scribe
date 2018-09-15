@@ -2,7 +2,7 @@
 <package>
   <metadata minClientVersion="3.3.0">
     <id>Scribe.NET</id>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <title>Scribe</title>
     <authors>Jon Fazzaro</authors>
     <owners>Jon Fazzaro</owners>
