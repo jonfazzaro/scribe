@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
   </PropertyGroup>
 
   <ItemGroup>
@@ -11,7 +12,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Scribe.Tests\Scribe.Tests.csproj" />
-    <ProjectReference Include="..\Scribe\Scribe.csproj" />
+    <ProjectReference Include="..\Scribe\Scribe.csproj">
+      <Private>true</Private>
+    </ProjectReference>
   </ItemGroup>
 
   <ItemGroup>

@@ -16,6 +16,7 @@ namespace Scribe.Tests
 			ExpectResult("2", 2);
 			ExpectResult("fizz", 3);
 			ExpectResult("buzz", 5);
+
 			ExpectResult("fizz", 9);
 			ExpectResult("buzz", 10);
 			ExpectResult("fizzbuzz", 15);

@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.28010.2019
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scribe", "Scribe\Scribe.csproj", "{46A7FFF9-121E-474E-87D2-AC487543EDBF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Target", "Target\Target.csproj", "{63135B03-8373-423B-B41E-B01FFA511DDA}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2BBBBDFC-9BF6-4FC0-BE76-067B877A2F6D}"
 	ProjectSection(SolutionItems) = preProject
 		pack.cmd = pack.cmd
@@ -30,10 +28,6 @@ Global
 		{46A7FFF9-121E-474E-87D2-AC487543EDBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46A7FFF9-121E-474E-87D2-AC487543EDBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46A7FFF9-121E-474E-87D2-AC487543EDBF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{63135B03-8373-423B-B41E-B01FFA511DDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{63135B03-8373-423B-B41E-B01FFA511DDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{63135B03-8373-423B-B41E-B01FFA511DDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{63135B03-8373-423B-B41E-B01FFA511DDA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{03DE3D38-2FAD-4537-A04B-1BE98AA64996}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{03DE3D38-2FAD-4537-A04B-1BE98AA64996}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03DE3D38-2FAD-4537-A04B-1BE98AA64996}.Release|Any CPU.ActiveCfg = Release|Any CPU

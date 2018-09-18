@@ -5,21 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="..\..\..\Users\jfazzaro\.nuget\packages\scribe.net.xunit\1.0.3\contentFiles\any\any\Scribe.xUnit.cs">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Scribe.xUnit.tt</DependentUpon>
-    </Compile>
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="FakeItEasy" Version="4.8.1" />
-    <PackageReference Include="Scribe.NET" Version="1.0.2" />
-    <PackageReference Include="Scribe.NET.xUnit" Version="1.0.3" />
-    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
-    </PackageReference>
   </ItemGroup>
 
   <ItemGroup>
@@ -27,33 +13,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="C:\Users\jfazzaro\.nuget\packages\scribe.net.xunit\1.0.1\contentFiles\any\any\Scribe.xUnit.cs">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Scribe.xUnit.tt</DependentUpon>
-    </Compile>
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Update="C:\Users\jfazzaro\.nuget\packages\scribe.net.mstest\1.0.1\contentFiles\any\any\Scribe.MSTest.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>Scribe.MSTest.cs</LastGenOutput>
-    </None>
-    <None Update="C:\Users\jfazzaro\.nuget\packages\scribe.net.xunit\1.0.1\contentFiles\any\any\Scribe.xUnit.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>Scribe.xUnit.cs</LastGenOutput>
-    </None>
-    <None Update="C:\Users\jfazzaro\.nuget\packages\scribe.net.xunit\1.0.2\contentFiles\any\any\Scribe.xUnit.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>Scribe.xUnit.cs</LastGenOutput>
-    </None>
     <None Update="C:\Users\jfazzaro\.nuget\packages\scribe.net.xunit\1.0.3\contentFiles\any\any\Scribe.xUnit.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>Scribe.xUnit.cs</LastGenOutput>
-    </None>
-    <None Update="C:\Users\jfazzaro\.nuget\packages\scribe.net\1.0.1\contentFiles\any\any\Scribe.ttinclude">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>Scribe.cs</LastGenOutput>
     </None>
   </ItemGroup>
 
