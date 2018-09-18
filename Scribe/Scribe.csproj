@@ -5,14 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Update="Scribe.ttinclude">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>Scribe.cs</LastGenOutput>
-    </None>
+    <Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}" />
   </ItemGroup>
 
   <ItemGroup>
-    <Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}" />
+    <None Update="Scribe.ttinclude">
+      <Generator></Generator>
+    </None>
   </ItemGroup>
 
 </Project>
