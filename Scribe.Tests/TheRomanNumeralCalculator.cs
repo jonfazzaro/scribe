@@ -13,7 +13,6 @@
 			ExpectAddingResult("II", "I", "I");
 			ExpectAddingResult("III", "I", "II");
 			ExpectAddingResult("IV", "I", "III");
-
 		}
 
 		void ExpectAddingResult(string result, string n1, string n2)
@@ -23,7 +22,8 @@
 				Describe($"and {n2}", () =>
 				{
 					var sum = string.Empty;
-					BeforeEach(() => {
+					BeforeEach(() =>
+					{
 						sum = _calculator.Add(n1, n2);
 					});
 

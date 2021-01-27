@@ -1,22 +1,16 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net462</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="FakeItEasy" Version="4.8.1" />
+    <PackageReference Include="FakeItEasy" Version="6.2.1" />
   </ItemGroup>
 
   <ItemGroup>
-    <Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Update="C:\Users\jfazzaro\.nuget\packages\scribe.net.xunit\1.0.3\contentFiles\any\any\Scribe.xUnit.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>Scribe.xUnit.cs</LastGenOutput>
-    </None>
+    <ProjectReference Include="..\Scribe.MSTest\Scribe.MSTest.csproj" />
+    <ProjectReference Include="..\Scribe.Tests\Scribe.Tests.csproj" />
   </ItemGroup>
 
 </Project>

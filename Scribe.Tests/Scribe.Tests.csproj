@@ -1,21 +1,20 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
+    <IsTestProject>true</IsTestProject>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="FakeItEasy" Version="4.8.1" />
+    <PackageReference Include="FakeItEasy" Version="6.2.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.8.3" />
+    <PackageReference Include="MSTest.TestAdapter" Version="2.1.2" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.1.2" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Scribe\Scribe.csproj">
-      <Private>true</Private>
-    </ProjectReference>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}" />
+    <ProjectReference Include="..\Scribe\Scribe.csproj" />
+    <ProjectReference Include="..\Scribe.MSTest.Generator\Scribe.MSTest.Generator.csproj" />
   </ItemGroup>
 
 </Project>
